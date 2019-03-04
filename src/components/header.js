@@ -1,22 +1,19 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { FaTwitter, FaYelp } from "react-icons/fa"
+
+
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+     
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+   
+    <div id = "navbar">
+      <h3 style={{ margin: 0, marginBottom: 20 }}>
         <Link
           to="/"
           style={{
@@ -25,9 +22,20 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
-        </Link>
-      </h1>
+        </Link> 
+      </h3>
+      <div id = "navLink">
+      <h5><Link to="/about/">About</Link></h5>
+      <h5><Link to="/menu/" >Menu</Link></h5>
+      <h5><Link to="/connect/" >Connect</Link></h5>
+      <h5><Link to="/location/" >Location</Link></h5>
+      </div>
+      <div id = "socialLink">
+        <h2><a href = "https://twitter.com/?lang=en" target = "blank" style = {{color: 'white'}}><FaTwitter /></a></h2>
+        <h2 ><a href = "https://www.yelp.com/" target = "blank" style = {{color: 'white'}}><FaYelp /></a></h2>
+      </div>
     </div>
+    
   </header>
 )
 

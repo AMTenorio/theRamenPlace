@@ -1,0 +1,64 @@
+@media only screen and (max-width: 425px) {
+    #navbar {
+        visibility: visible;
+        min-width: 100vw;
+        height: 125px;
+        background-color: black;
+
+    }
+
+    #navLink {
+        display: inline-flex;
+        justify-content: space-between;
+        padding:  0 0 25px 0;
+    }
+
+    #navbarMobile {
+        display: none;
+    }
+
+    #socialLink {
+        display: none;
+    }
+
+    header {
+        width: 0;
+        max-height: 0px;
+    }
+
+    main {
+        margin-top: 15vh;
+        padding-left: 5px;
+    }
+
+    #index h1 {
+        font-size: 25vw;
+    }
+
+    #about {
+        padding-top: 50px;
+    }
+
+    #menu {
+        padding-top: 50px;
+    }
+
+    #connect {
+        padding-top: 50px;
+    }
+
+    #location {
+        padding-top: 50px;
+    }
+
+    #menuSub {
+        width: 100vw;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+
+
+    footer {
+        padding-left: 0px;
+    }
+  }
