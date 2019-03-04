@@ -138,9 +138,8 @@ button:hover {
     width: auto;
 }
 
-#menuSub {
+.menuSub {
     font-size: 4vw;
-    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7)), url("../images/ramen3.jpg");
     min-height: 200px;
     background-size: cover;
     background-position: center;
@@ -151,8 +150,21 @@ button:hover {
     margin-bottom: 50px;
 }
 
-#menuSub:hover {
+#sub1 {
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7)), url("../images/ramen3.jpg");
+}
+
+#sub2 {
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7)), url("../images/ramen2.jpg");
+}
+
+#sub3 {
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7)), url("../images/ramen1.jpg");
+}
+
+.menuSub:hover {
     color: red;
+    transition: .7s ease;
 }
 
 .subMenu{

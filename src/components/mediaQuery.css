@@ -51,10 +51,11 @@
         padding-top: 50px;
     }
 
-    #menuSub {
-        width: 100vw;
+    .menuSub {
+        width: 93vw;
         margin-bottom: 10px;
         font-size: 10vw;
+        margin-right: 5px;
     }
 
 
