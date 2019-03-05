@@ -27,32 +27,36 @@
     }
 
     main {
-        margin-top: 15vh;
+        margin-top: 20vh;
         padding-left: 5px;
     }
 
     #index h1 {
-        font-size: 25vw;
+        font-size: 20vw;
     }
 
     #about {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     #menu {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     #connect {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     #location {
-        padding-top: 50px;
+        padding-top: 20px;
+    }
+
+    #location iframe {
+        width: 98vw;
     }
 
     .menuSub {
-        width: 93vw;
+        width: 98vw;
         margin-bottom: 10px;
         font-size: 10vw;
         margin-right: 5px;

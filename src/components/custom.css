@@ -33,6 +33,11 @@ a {
     color: whitesmoke;
 }
 
+iframe {
+    width: 50vw;
+    height: 40vh; 
+}
+
 
 
 
@@ -129,6 +134,15 @@ button:hover {
     width: auto;
 }
 
+#connect h1, h2, h4, h5, p {
+    margin-bottom: 0px;
+}
+
+#connect h2, h4 {
+    padding: 10px 0;
+}
+
+
 
 
 
@@ -139,7 +153,7 @@ button:hover {
 }
 
 .menuSub {
-    font-size: 4vw;
+    font-size: 2.5vw;
     min-height: 200px;
     background-size: cover;
     background-position: center;

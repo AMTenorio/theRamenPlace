@@ -14,7 +14,7 @@ const ConnectPage = () => (
     <h5>Mon-Thu</h5><p>11:00 am - 8:30 pm</p>
     <h5>Fri - Sat</h5><p>11:00 am - 9:00 pm</p>
     <h5>Sun</h5><p>11:00 am - 8:30 pm</p>
-    <h1>Place Order</h1>
+    <h2>Place Order</h2>
     <button><a href="https://www.grubhub.com/restaurant/wazakuraken-ramen-7201-archibald-ave-rancho-cucamonga/550274?utm_source=google&utm_medium=organic&utm_campaign=place-action-link" target="blank">Grubhub</a></button> 
     <button><a href="https://www.seamless.com/menu/wazakuraken-ramen-7201-archibald-ave-rancho-cucamonga/550274?utm_source=google&utm_medium=organic&utm_campaign=place-action-link" target="blank">Seamless</a></button> 
     <button>By Phone</button>
