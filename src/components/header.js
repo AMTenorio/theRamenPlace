@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { FaTwitter, FaYelp } from "react-icons/fa"
+import Logo from "../images/the-ramen-place-logo.svg"
 
 
 
@@ -13,7 +14,7 @@ const Header = ({ siteTitle }) => (
   >
    
     <div id = "navbar">
-      <h3 style={{ margin: 0, marginBottom: 20 }}>
+      <h3 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -21,7 +22,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <img style={{ width: 150 }} src={Logo} alt="Logo"/>
         </Link> 
       </h3>
       <div id = "navLink">

@@ -14,7 +14,8 @@ body {
 }
 
 main {
-    padding-left: 300px;
+    padding-top: 100px;
+    padding-left: 200px;
     padding-right: 10px;
     min-height: 100%;
    
@@ -46,7 +47,7 @@ iframe {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    padding: 20px;
+    padding: 5px;
     justify-content: space-between;
 }
 
@@ -212,5 +213,5 @@ button:hover {
 
 /* Footer Section */
 footer {
-    padding-left: 300px;
+    padding-left: 200px;
 }
