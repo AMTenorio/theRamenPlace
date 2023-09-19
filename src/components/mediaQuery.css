@@ -2,7 +2,7 @@
     #navbar {
         visibility: visible;
         min-width: 100vw;
-        height: 125px;
+        height: 200px;
         background-color: black;
 
     }
@@ -27,16 +27,22 @@
     }
 
     main {
-        margin-top: 20vh;
+        width: 100vw;
+        margin-top: 5vh;
         padding-left: 5px;
     }
 
     #index h1 {
-        font-size: 20vw;
+        font-size: 15vw;
     }
 
     #about {
         padding-top: 20px;
+    }
+
+    #staff div {
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     #menu {
@@ -44,11 +50,11 @@
     }
 
     #connect {
-        padding-top: 20px;
+        padding-top: 0px;
     }
 
     #location {
-        padding-top: 20px;
+        padding-top: 0px;
     }
 
     #location iframe {
